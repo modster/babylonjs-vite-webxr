@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: '/',
-  base: '/babylonjs-vite-webxr/',
+  base: '/',
+  server: {
+    https: true,
+    port: 3443
+  }
 })
