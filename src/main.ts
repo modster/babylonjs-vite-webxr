@@ -1,4 +1,4 @@
-import './style.css'
+// import './style.css'
 
 import { ArcRotateCamera }        from '@babylonjs/core/Cameras/arcRotateCamera.js'
 import { Color3 }                 from "@babylonjs/core/Maths/math.color.js"

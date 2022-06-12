@@ -20,9 +20,10 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite --config vite.dev.js",
+    "build": "tsc && vite build --config vite.build.js",
+    "preview": "vite preview",
+    "help": "vite --help"
   },
   "devDependencies": {
     "typescript": "^4.7.3",

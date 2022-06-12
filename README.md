@@ -4,3 +4,13 @@ An immersive WebXR project using the BabylonJS ES6 modules. The project is built
 
 to do: link to demo site
 to do: link to my site
+```js
+import { defineConfig } from 'vite'
+import mkcert from 'vite-plugin-mkcert'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  server: { https: true },
+  plugins: [ mkcert() ],
+})
+```
