@@ -21,9 +21,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --config vite.dev.js",
-    "build": "tsc && vite build --config vite.build.js",
+    "build": "tsc && vite build",
     "preview": "vite preview",
-    "help": "vite --help"
+    "optimize": "vite --help"
   },
   "devDependencies": {
     "typescript": "^4.7.3",

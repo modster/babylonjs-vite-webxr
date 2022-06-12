@@ -1,5 +1,3 @@
-// import './style.css'
-
 import { ArcRotateCamera }        from '@babylonjs/core/Cameras/arcRotateCamera.js'
 import { Color3 }                 from "@babylonjs/core/Maths/math.color.js"
 import { Engine }                 from '@babylonjs/core/Engines/engine.js'
@@ -53,6 +51,10 @@ WebXRDefaultExperience.CreateAsync(scene, {
     console.log("WebXR ready")
   })
 
+/**
+ *
+ * @todo
+ */
 engine.runRenderLoop(() => {
   scene.render()
 })
