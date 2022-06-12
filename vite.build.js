@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: './',
+  root: '/',
   base: '/babylonjs-vite-webxr/',
-
 })
